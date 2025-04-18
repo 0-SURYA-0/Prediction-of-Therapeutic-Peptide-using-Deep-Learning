@@ -1,3 +1,4 @@
+
 # 🧬 Therapeutic Peptide Finder
 
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
@@ -58,7 +59,7 @@ Coming soon...
 
 ## 🧩 Architecture Overview
 
-mermaid
+```mermaid
 graph TD
 A[User Input Peptide] --> B[Model 1: Therapeutic Classifier]
 B -->|Non-Therapeutic| Z[Return Result]
@@ -67,7 +68,7 @@ C -->|No Match| Z
 C -->|Match Found| D[Model 3: Disease Docker]
 D --> E[3D Simulation via OpenFold + AutoDock Vina]
 E --> F[Output Scores & Docking Result]
-
+```
 
 ---
 
@@ -75,7 +76,7 @@ E --> F[Output Scores & Docking Result]
 
 ### 🔧 Frontend (React)
 
-bash
+```bash
 # Navigate to frontend folder
 cd therapeutic-peptide-finder/frontend
 
@@ -84,13 +85,13 @@ npm install
 
 # Start the frontend server
 npm run dev
-
+```
 
 ---
 
 ### 🧪 Backend (Flask + Models)
 
-bash
+```bash
 # Navigate to backend
 cd ../backend
 
@@ -100,11 +101,11 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # Install required Python libraries
 pip install -r requirements.txt
+```
 
+**Sample `requirements.txt`:**
 
-**Sample requirements.txt:**
-
-
+```text
 torch
 transformers
 flask
@@ -112,18 +113,18 @@ biopython
 numpy
 pandas
 scikit-learn
+```
 
-
-bash
+```bash
 # Run Flask server
 python app.py
-
+```
 
 ---
 
 ### 📦 OpenFold Setup
 
-bash
+```bash
 # Clone OpenFold
 git clone https://github.com/aqlaboratory/openfold.git
 cd openfold
@@ -137,21 +138,21 @@ pip install -r requirements.txt
 
 # Download pretrained weights (AlphaFold DB format)
 bash scripts/download_openfold_params.sh <download_dir>
-
+```
 
 *OR manually:*
 
-bash
+```bash
 wget https://files.ipd.uw.edu/pub/openfold/openfold_params/finetuned_ptm_1.pt
 mkdir -p openfold/resources/weights
 mv finetuned_ptm_1.pt openfold/resources/weights/
-
+```
 
 ---
 
 ### ⚗ AutoDock Vina Setup
 
-bash
+```bash
 # Download AutoDock Vina
 wget https://github.com/ccsb-scripps/AutoDock-Vina/releases/download/v1.2.5/vina_1.2.5_linux_x86_64.tar.gz
 tar -xvzf vina_1.2.5_linux_x86_64.tar.gz
@@ -162,11 +163,9 @@ sudo mv vina_1.2.5_linux_x86_64/vina /usr/local/bin
 # For Windows, download .exe from:
 # https://github.com/ccsb-scripps/AutoDock-Vina/releases
 
-
-bash
 # Test if vina installed correctly
 vina --help
-
+```
 
 ---
 
@@ -182,7 +181,7 @@ vina --help
 
 ## 📊 Sample Output
 
-json
+```json
 {
   "Sequence": "GVGVPGLGVG",
   "Model_1": "Therapeutic",
@@ -197,7 +196,7 @@ json
     "Stability": "High"
   }
 }
-
+```
 
 ---
 
@@ -212,7 +211,6 @@ json
 *Vishal Seshadri B* 🔗 [LinkedIn](https://www.linkedin.com/in/vishal-seshadri-b-b82074289/)  
 
 Passionate about 🧬 Bioinformatics, 🧠 Deep Learning, and 🌐 Full Stack Dev  
-
 
 ---
 
