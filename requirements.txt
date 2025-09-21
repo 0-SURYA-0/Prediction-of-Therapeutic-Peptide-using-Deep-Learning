@@ -1,0 +1,142 @@
+# =============================================================================
+# PREDICTION OF THERAPEUTIC PEPTIDE - REQUIREMENTS
+# =============================================================================
+# Core dependencies for therapeutic peptide prediction using deep learning
+# Compatible with Python 3.8-3.11
+
+# =============================================================================
+# CORE MACHINE LEARNING & DEEP LEARNING
+# =============================================================================
+
+# TensorFlow (with specific protobuf compatibility)
+tensorflow>=2.10.0,<2.13.0
+protobuf==3.20.3
+
+# PyTorch (for ProtBERT compatibility)
+torch>=1.12.0
+torchvision>=0.13.0
+torchaudio>=0.12.0
+
+# Transformers (for ProtBERT)
+transformers>=4.21.0
+tokenizers>=0.12.0
+
+# Scikit-learn (traditional ML algorithms)
+scikit-learn>=1.1.0
+
+# XGBoost (gradient boosting)
+xgboost>=1.6.0
+
+# =============================================================================
+# DATA SCIENCE & NUMERICAL COMPUTING
+# =============================================================================
+
+# Core numerical libraries
+numpy>=1.21.0
+pandas>=1.4.0
+scipy>=1.8.0
+
+# Statistical analysis
+statsmodels>=0.13.0
+
+# Feature scaling and preprocessing
+imbalanced-learn>=0.9.0
+
+# =============================================================================
+# BIOINFORMATICS & SEQUENCE ANALYSIS
+# =============================================================================
+
+# BioPython (biological sequence analysis)
+biopython>=1.79
+
+# Sequence analysis utilities
+biotite>=0.37.0
+
+# =============================================================================
+# VISUALIZATION & PLOTTING
+# =============================================================================
+
+# Core plotting
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Interactive plotting
+plotly>=5.10.0
+
+# =============================================================================
+# WEB DEVELOPMENT (BACKEND API)
+# =============================================================================
+
+# Flask framework
+Flask>=2.2.0
+Flask-CORS>=3.0.10
+Flask-RESTful>=0.3.9
+
+# Web server
+gunicorn>=20.1.0
+
+# =============================================================================
+# JUPYTER & NOTEBOOK ENVIRONMENT
+# =============================================================================
+
+# Jupyter ecosystem
+jupyter>=1.0.0
+jupyterlab>=3.4.0
+notebook>=6.4.0
+
+# Jupyter extensions
+ipywidgets>=7.7.0
+ipykernel>=6.15.0
+
+# Progress bars for notebooks
+tqdm>=4.64.0
+
+# =============================================================================
+# UTILITY LIBRARIES
+# =============================================================================
+
+# Configuration management
+python-dotenv>=0.20.0
+
+# Logging
+loguru>=0.6.0
+
+# File I/O
+openpyxl>=3.0.0
+
+# JSON handling
+ujson>=5.4.0
+
+# Memory profiling
+memory-profiler>=0.60.0
+
+# Parallel processing
+joblib>=1.1.0
+
+# Caching
+diskcache>=5.4.0
+
+# =============================================================================
+# VERSION CONSTRAINTS FOR COMPATIBILITY
+# =============================================================================
+
+# Ensure compatibility between packages
+h5py>=3.7.0,<4.0.0
+Pillow>=9.2.0
+requests>=2.28.0
+urllib3>=1.26.0,<2.0.0
+
+# =============================================================================
+# TESTING & DEVELOPMENT (OPTIONAL)
+# =============================================================================
+
+# Testing framework
+pytest>=7.1.0
+pytest-cov>=3.0.0
+
+# Code formatting
+black>=22.0.0
+isort>=5.10.0
+
+# Linting
+flake8>=5.0.0

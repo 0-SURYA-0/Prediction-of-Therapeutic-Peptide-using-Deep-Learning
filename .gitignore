@@ -1,0 +1,259 @@
+# Prediction of Therapeutic Peptide - Comprehensive .gitignore
+
+# =============================================================================
+# PYTHON & JUPYTER
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+therapeutic_peptide_env/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# =============================================================================
+# MACHINE LEARNING & DATA SCIENCE
+# =============================================================================
+
+# Trained Models
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.tflite
+*.onnx
+
+# Model checkpoints and logs
+checkpoints/
+logs/
+runs/
+wandb/
+mlruns/
+.neptune/
+
+# TensorFlow
+*.tfrecord
+*.tfrecords
+saved_model/
+variables/
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.mat
+*.npz
+*.npy
+
+# Large data directories
+data/raw/
+data/processed/
+
+# Embeddings and feature caches
+embeddings/
+features/
+cache/
+*.cache
+*_cache/
+
+# Plots and visualizations
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.svg
+*.eps
+plots/
+figures/
+visualizations/
+
+# =============================================================================
+# WEB DEVELOPMENT (REACT/NODE.JS)
+# =============================================================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.local
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage directory
+coverage/
+*.lcov
+
+# =============================================================================
+# SYSTEM & EDITOR FILES
+# =============================================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# IDEs
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.swp
+*.swo
+
+# =============================================================================
+# PROJECT SPECIFIC
+# =============================================================================
+
+# Model artifacts
+backend/models/*.h5
+backend/models/*.pkl
+backend/models/*.joblib
+
+# Experiment outputs
+experiments/
+results/
+outputs/
+
+# Large embedding files
+*_embeddings.npy
+*_features.pkl
+protbert_cache/
+
+# API keys and secrets
+secrets.json
+api_keys.json
+credentials/
+
+# Personal notes
+TODO.md
+NOTES.md
+personal_notes/
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# Build directories
+build/
+dist/
