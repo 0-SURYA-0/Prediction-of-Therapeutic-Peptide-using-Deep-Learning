@@ -611,16 +611,6 @@ Join our [GitHub Discussions](https://github.com/yourusername/Prediction-of-Ther
 
 ---
 
-<div align="center">
-
-**⭐ Star this repository if it helped your research! ⭐**
-
-Made with ❤️ for the bioinformatics community
-
-[🔝 Back to Top](#-prediction-of-therapeutic-peptide-using-deep-learning)
-
-</div>
-
 ## 🚀 Usage
 
 ### Training Models
@@ -695,4 +685,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **LinkedIn**: [https://www.linkedin.com/in/surya-ha-9a0a5a291/]
 - **Project Link**: https://github.com/0-SURYA-0/Prediction-of-Therapeutic-Peptide-using-Deep-Learning
 
-⭐ **Star this repository if you found it helpful!** ⭐
+<div align="center">
+
+**⭐ Star this repository if it helped your research! ⭐**
+
+Made for the bioinformatics community
+
+</div>
