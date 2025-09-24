@@ -1,1 +1,9 @@
-# This file is intentionally left empty to make the utils directory a proper Python package
+from .model_loader import ModelLoader
+from .predictor import TherapeuticPeptidePredictor
+from .feature_extractor import PeptideFeatureExtractor
+
+__all__ = [
+    'ModelLoader',
+    'TherapeuticPeptidePredictor',
+    'PeptideFeatureExtractor'
+]

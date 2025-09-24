@@ -1,0 +1,29 @@
+# Core Flask and API dependencies
+Flask==2.3.3
+flask-cors==4.0.0
+Werkzeug==2.3.7
+
+# Machine Learning and Deep Learning
+tensorflow==2.13.0
+scikit-learn==1.3.0
+numpy==1.24.3
+pandas==1.5.3
+
+# Biological sequence analysis
+biopython==1.81
+
+# Data processing and utilities
+joblib==1.3.2
+scipy==1.11.1
+
+# HTTP and web utilities
+requests==2.31.0
+urllib3==1.26.16
+
+# Development and logging
+python-dotenv==1.0.0
+gunicorn==21.2.0
+
+# Optional: For advanced model formats
+h5py==3.9.0
+pickle5==0.0.12
