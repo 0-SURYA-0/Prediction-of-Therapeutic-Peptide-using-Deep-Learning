@@ -32,7 +32,15 @@ xgboost>=1.6.0
 # =============================================================================
 
 # Core numerical libraries
-numpy>=1.21.0
+pandas>=1.4.0
+scikit-learn>=1.1.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+tensorflow>=2.10.0,<2.13.0
+torch>=1.12.0
+tqdm>=4.64.0
+transformers>=4.21.0
+joblib>=1.1.0
 pandas>=1.4.0
 scipy>=1.8.0
 

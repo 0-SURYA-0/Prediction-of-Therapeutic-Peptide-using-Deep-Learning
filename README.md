@@ -685,6 +685,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Author**: [Surya HA]
 - **Email**: [suryahariharan2006@gmail.com]
 - **LinkedIn**: [https://www.linkedin.com/in/surya-ha-9a0a5a291/]
-- **Project Link**: https://github.com/yourusername/Prediction-of-Therapeutic-Peptide-using-Deep-Learning
+- **Project Link**: https://github.com/0-SURYA-0/Prediction-of-Therapeutic-Peptide-using-Deep-Learning
 
 ⭐ **Star this repository if you found it helpful!** ⭐
