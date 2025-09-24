@@ -687,19 +687,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **LinkedIn**: [https://www.linkedin.com/in/surya-ha-9a0a5a291/]
 - **Project Link**: https://github.com/yourusername/Prediction-of-Therapeutic-Peptide-using-Deep-Learning
 
-## 📚 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@software{therapeutic_peptide_prediction,
-  author = {Your Name},
-  title = {Therapeutic Peptide Prediction using Deep Learning},
-  url = {https://github.com/yourusername/Prediction-of-Therapeutic-Peptide-using-Deep-Learning},
-  year = {2025}
-}
-```
-
----
-
 ⭐ **Star this repository if you found it helpful!** ⭐
