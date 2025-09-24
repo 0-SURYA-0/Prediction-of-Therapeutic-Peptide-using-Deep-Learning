@@ -27,6 +27,14 @@ A state-of-the-art machine learning pipeline for predicting therapeutic peptides
 - **Scalable Design**: Professional code structure for deployment and maintenance
 - **Comprehensive Documentation**: Detailed guides and API documentation
 
+
+## 📦 Dataset
+
+The dataset used for this project can be accessed here:
+[Therapeutic Peptide Dataset (Google Drive)](https://drive.google.com/file/d/1plX2Elsy5ETNGYd56EKhQPjT5L_LK-Oh/view?usp=drive_link)
+
+Please download and extract the files as needed before running the notebooks.
+
 ## 📁 Project Structure
 
 ```
