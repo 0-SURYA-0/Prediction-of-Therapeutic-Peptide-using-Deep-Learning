@@ -592,23 +592,6 @@ If you use this work in your research, please cite:
 - **Transformers**: Hugging Face for model implementations
 - **TensorFlow/Keras**: Google for deep learning framework
 
-## 📞 Support & Contact
-
-### 🐛 Bug Reports
-Please use [GitHub Issues](https://github.com/yourusername/Prediction-of-Therapeutic-Peptide-using-Deep-Learning/issues) for bug reports and feature requests.
-
-### 💬 Discussions
-Join our [GitHub Discussions](https://github.com/yourusername/Prediction-of-Therapeutic-Peptide-using-Deep-Learning/discussions) for:
-- Technical questions
-- Model improvement suggestions
-- Dataset contributions
-- Collaboration opportunities
-
-### 📧 Contact
-- **Primary**: [your.email@domain.com](mailto:your.email@domain.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **Research Gate**: [Your ResearchGate Profile](https://researchgate.net/profile/yourprofile)
-
 ---
 
 ## 🚀 Usage
